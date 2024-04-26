@@ -2,7 +2,7 @@
 let inputDir = {x:0, y:0};
 const foodSound = new Audio('food.mpeg');
 const gameOverSound = new Audio('gameover.mpeg');
-const moveSound = new Audio('gamemusic1~.mpeg');
+const moveSound = new Audio('gamemusic1.mpeg');
 let speed = 5;
 let score = 0;
 let lastPaintTime = 0;
