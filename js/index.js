@@ -101,9 +101,6 @@ function gameEngine(){
 
 
 
-
-
-
 // Main logic starts here
 window.requestAnimationFrame(main);
 window.addEventListener('keydown', e => {
