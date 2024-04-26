@@ -47,7 +47,11 @@
 }
 
 .food{
-    background: linear-gradient(red, orange);
+    /* background: linear-gradient(red, orange);
     border: .25vmin solid Black;
-    border-radius: 12px;
+    border-radius: 12px; */
+
+    background: url(/images/apple.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
 }

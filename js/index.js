@@ -48,6 +48,8 @@ function gameEngine(){
         snakeArr = [{x: 13, y: 15}];
         moveSound.play();
         score = 0;
+       // To reset the score to 0 when the game restarts after being over, we need to update the score initialization in the gameEngine function when the game restarts. 
+        scoreBox.innerHTML = "Score: " + score; 
     }
 
     // If you have eaten the food , increment the score and regenerate the food
